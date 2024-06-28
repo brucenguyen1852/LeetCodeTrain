@@ -1,6 +1,7 @@
 package Array;
 
 public class Max_Consecutive_Ones {
+    // ==================================================================================
     // Given a binary array nums, return the maximum number of consecutive 1's in
     // the array.
 
@@ -14,6 +15,7 @@ public class Max_Consecutive_Ones {
 
     // Input: nums = [1,0,1,1,0,1]
     // Output: 2
+    // ==================================================================================
     public static void main(String[] args) {
         int[] nums = { 1, 1, 0, 1, 1, 1 };
         int maxCount = 0;
